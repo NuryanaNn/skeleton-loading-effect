@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+body {
+      background-color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-color: #737373;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #69b5dd;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.loaderLight{
+    border:1px solid;
+    border-color:#bdbdbd;
+    border-radius:2px;
+    padding: 10px;
+    background: #ffffff;}
+
+.lightLoader {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #d8d8d8;
+  background-image: linear-gradient(to right, #d8d8d8 0%, #bdbdbd 20%, #d8d8d8 40%, #d8d8d8 100%);
+  background-repeat: no-repeat;
+  background-size: 800px 104px;
+  height: 104px;
+  position: relative
+}
+
+.lightLoader div {
+  background: #ffffff;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  right: 0
+}
+
+div.load1 {
+  height: 40px;
+  left: 40px;
+  right: auto;
+  top: 0;
+  width: 8px;
+}
+
+div.load2 {
+  height: 8px;
+  left: 48px;
+  top: 0
+}
+
+div.load3 {
+  left: 136px;
+  top: 8px
+}
+
+div.load4 {
+  height: 12px;
+  left: 48px;
+  top: 14px
+}
+
+div.load5 {
+  left: 100px;
+  top: 26px
+}
+
+div.load6 {
+  height: 10px;
+  left: 48px;
+  top: 32px
+}
+
+div.load7 {
+  height: 20px;
+  top: 40px
+}
+
+div.load8 {
+  left: 410px;
+  top: 60px
+}
+
+div.load9 {
+  height: 13px;
+  top: 66px
+}
+
+div.load10 {
+  left: 440px;
+  top: 79px
+}
+
+div.load11 {
+  height: 13px;
+  top: 85px
+}
+
+div.load12 {
+  left: 178px;
+  top: 98px
+}
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  100% {
+    background-position: 468px 0
+  }
+}
